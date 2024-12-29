@@ -1,7 +1,8 @@
-body{
+body {
     background-image: url(HuGGeENt6kGyixe3hT9tnY.jpg);
 }
-h1{
+
+h1 {
     background-color: rgba(240, 255, 255, 0.3);
     text-align: center;
     border-radius: 10px;
@@ -14,7 +15,24 @@ h1{
     text-shadow: 2px 2px black;
     font-size: 250%;
 }
-a.button{
+
+p {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black background */
+    color: #ffffff;
+    /* White text color */
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    /* Adjust as needed */
+    border-radius: 8px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+a.button {
     display: inline-block;
     padding: 1px 6px;
     border: 1px outset black;
@@ -30,9 +48,11 @@ a.button{
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-a.button:hover{
+
+a.button:hover {
     background-color: rgba(200, 215, 215, 0.3);
 }
+
 #logo {
     height: 125px;
     border-radius: 4cqmin;
